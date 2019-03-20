@@ -1,0 +1,48 @@
+//RESET/HELPERS
+@import 'reset';
+@import 'normalize';
+@import 'flexbox';
+@import 'helpers';
+@import 'mixins';
+
+//BULMA
+@import "../../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../../node_modules/bulma/sass/base/helpers.sass";
+@import "../../../node_modules/bulma/sass/grid/columns.sass";
+
+//VARIABLES
+$center: 0 auto;
+
+//CORE
+body {
+	overflow-x: hidden;
+}
+
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+p {
+
+}
+
+nav {
+	padding: 20px;
+	.nav-container {
+		max-width: 960px;
+		margin: $center;
+		.nav-columns {
+			@include align-items(center);
+			.nav-item {
+			}
+		}
+	}
+}
